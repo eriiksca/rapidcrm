@@ -45,3 +45,11 @@ group :development do
   gem 'spring'
 end
 
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0.0'
+end
+
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
