@@ -5,4 +5,3 @@ class AddItemsToLead < ActiveRecord::Migration
     add_column :leads, :badone, :string
   end
 end
-grate
