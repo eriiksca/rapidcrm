@@ -78,4 +78,4 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 end
 
-config.assets.initialize_on_precpmpile = false
+config.assets.initialize_on_precompile = false
