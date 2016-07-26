@@ -23,8 +23,11 @@
     <%= f.label :location %><br>
     <%= f.text_field :location %>
   </div>
+  <div class="field">
+    <%= f.label :date %><br>
+    <%= f.text_field :date %>
+  </div>
   <div class="actions">
     <%= f.submit %>
   </div>
 <% end %>
-   params.require(:lead).permit(:name, :company, :location)
